@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- strings.xml -->
+<resources>
+    <!-- App Information -->
+    <string name="app_name">SkinCare Pro</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Button Descriptions for Accessibility -->
+    <string name="favorite_button_desc">Add to favorites</string>
+    <string name="search_button_desc">Search products</string>
+    <string name="filter_button_desc">Filter products</string>
+
+    <!-- Activity Titles -->
+    <string name="main_activity_title">Product Search</string>
+    <string name="product_detail_title">Product Details</string>
+    <string name="favorites_title">My Favorites</string>
+    <string name="access_key_title">Enter Access Key</string>
+
+    <!-- Labels and Hints -->
+    <string name="search_hint">Search for products...</string>
+    <string name="access_key_hint">Enter your access key</string>
+    <string name="price_range_label">Price Range</string>
+    <string name="category_label">Category</string>
+    <string name="skin_concerns_label">Skin Concerns</string>
+
+    <!-- Button Labels -->
+    <string name="btn_continue">Continue</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_clear_filters">Clear Filters</string>
+    <string name="btn_add_to_favorites">Add to Favorites</string>
+    <string name="btn_add_to_routine">Add to Routine</string>
+    <string name="btn_add_to_buy_list">Add to Buy List</string>
+
+    <!-- Messages -->
+    <string name="access_key_required">Please enter the access key</string>
+    <string name="access_key_too_short">Access key must be at least 3 characters</string>
+    <string name="added_to_favorites">%s added to favorites</string>
+    <string name="added_to_routine">%s added to routine</string>
+    <string name="added_to_buy_list">%s added to buy list</string>
+    <string name="no_products_found">No products found matching your criteria</string>
+    <string name="loading_products">Loading products...</string>
+    <string name="network_error">Network error occurred. Please try again.</string>
+    <string name="trying_specific_brands">No skincare products found. Trying specific brands...</string>
+
+    <!-- Product Details -->
+    <string name="product_price_format">$%.2f</string>
+    <string name="product_rating_format">%.1f stars</string>
+    <string name="unknown_product">Unknown Product</string>
+    <string name="unknown_brand">Unknown Brand</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_products">Failed to load products</string>
+    <string name="error_network">Network connection error</string>
+    <string name="error_invalid_data">Invalid product data received</string>
+
+    <!-- Empty States -->
+    <string name="empty_favorites">No favorites yet</string>
+    <string name="empty_search_results">No products match your search</string>
+    <string name="empty_routine">Your routine is empty</string>
+</resources>

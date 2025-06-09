@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- arrays.xml -->
+<resources>
+    <!-- Product categories for the spinner -->
+    <string-array name="product_categories">
+        <item>All Categories</item>
+        <item>Cleanser</item>
+        <item>Moisturizer</item>
+        <item>Serum</item>
+        <item>Toner</item>
+        <item>Sunscreen</item>
+        <item>Face Mask</item>
+        <item>Eye Cream</item>
+        <item>Exfoliant</item>
+        <item>Treatment</item>
+        <item>Makeup</item>
+        <item>Foundation</item>
+        <item>Lipstick</item>
+        <item>Mascara</item>
+    </string-array>
+
+    <!-- Skin concerns for filtering -->
+    <string-array name="skin_concerns">
+        <item>All Concerns</item>
+        <item>Acne</item>
+        <item>Acne Scarring</item>
+        <item>Dryness</item>
+        <item>Aging</item>
+        <item>Fine Lines</item>
+        <item>Wrinkles</item>
+        <item>Hyperpigmentation</item>
+        <item>Dark Spots</item>
+        <item>Redness</item>
+        <item>Sensitive Skin</item>
+        <item>Oiliness</item>
+        <item>Large Pores</item>
+        <item>Uneven Skin Tone</item>
+        <item>Dullness</item>
+    </string-array>
+
+    <!-- Skin types -->
+    <string-array name="skin_types">
+        <item>All Skin Types</item>
+        <item>Normal</item>
+        <item>Dry</item>
+        <item>Oily</item>
+        <item>Combination</item>
+        <item>Sensitive</item>
+        <item>Mature</item>
+    </string-array>
+
+    <!-- Price ranges for quick filtering -->
+    <string-array name="price_ranges">
+        <item>All Prices</item>
+        <item>Under $15</item>
+        <item>$15 - $30</item>
+        <item>$30 - $50</item>
+        <item>$50 - $100</item>
+        <item>Over $100</item>
+    </string-array>
+
+    <!-- Brand options (can be expanded based on API data) -->
+    <string-array name="popular_brands">
+        <item>All Brands</item>
+        <item>Clinique</item>
+        <item>Maybelline</item>
+        <item>Revlon</item>
+        <item>L\'Oreal</item>
+        <item>NYX</item>
+        <item>CeraVe</item>
+        <item>Neutrogena</item>
+        <item>The Ordinary</item>
+    </string-array>
+
+    <!-- Rating filters -->
+    <string-array name="rating_filters">
+        <item>All Ratings</item>
+        <item>4+ Stars</item>
+        <item>3+ Stars</item>
+        <item>2+ Stars</item>
+        <item>1+ Stars</item>
+    </string-array>
+
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>Relevance</item>
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+        <item>Rating: High to Low</item>
+        <item>Rating: Low to High</item>
+        <item>Name: A to Z</item>
+        <item>Name: Z to A</item>
+        <item>Newest First</item>
+    </string-array>
+
+    <!-- Initial values for price range slider (min, max) -->
+    <array name="initial_slider_values">
+        <item>5.0</item>
+        <item>200.0</item>
+    </array>
+
+    <!-- Default price range steps -->
+    <array name="price_steps">
+        <item>5.0</item>
+        <item>15.0</item>
+        <item>30.0</item>
+        <item>50.0</item>
+        <item>100.0</item>
+        <item>200.0</item>
+    </array>
+</resources>

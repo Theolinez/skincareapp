@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData = "M0,0h200v200h-200z"/>
+    <text
+        android:x="100dp"
+        android:y="110dp"
+        android:text="Product"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:textAlignment="center" />
+</vector>
